@@ -1,0 +1,5 @@
+bot_token: "1234567890"
+guild_id: "1234567890"
+webhook_name: 'Sync-Trans'
+translate_data_path: './data/translation_group.json'
+need_detector: true

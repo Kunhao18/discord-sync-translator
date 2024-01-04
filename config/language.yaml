@@ -1,0 +1,22 @@
+# Lingua Detector Language Note List: 
+# https://github.com/pemistahl/lingua/blob/main/src/main/kotlin/com/github/pemistahl/lingua/api/Language.kt
+
+English:
+  detector_note: "ENGLISH"
+  translator_note: "en"
+  emoji_note: ":flag_gb:"
+
+German:
+  detector_note: "GERMAN"
+  translator_note: "de"
+  emoji_note: ":flag_de:"
+
+Russian:
+  detector_note: "RUSSIAN"
+  translator_note: "ru"
+  emoji_note: ":flag_ru:"
+
+Chinese:
+  detector_note: "CHINESE"
+  translator_note: "zh"
+  emoji_note: ":flag_cn:"
