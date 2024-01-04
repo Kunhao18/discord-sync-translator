@@ -1,0 +1,2 @@
+# discord-sync-translator
+discord
