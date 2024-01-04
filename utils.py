@@ -1,6 +1,8 @@
+import os
 import yaml
 import discord
 from discord import app_commands
+from dotenv import load_dotenv
 
 from manager import TransChannelManager
 from backend import DetectorBackend, TranslatorBackend
@@ -29,6 +31,7 @@ def get_lang_note_dict(lang_dict, need_detector=True):
         lang_dict_emoji[language] = lang_dict[language]["emoji_note"]
     return lang_dict_detector, lang_dict_translator, lang_dict_emoji
 
+load_dotenv()
 
 # Instantiate Global
 intents = discord.Intents.all()
@@ -44,8 +47,8 @@ with open('./config/language.yaml', 'r') as f_in:
 lang_dict_detector, lang_dict_translator, lang_dict_emoji = get_lang_note_dict(language_config, params['need_detector'])
 
 # global variables
-bot_token = params['bot_token']
-guild_id = params['guild_id']
+bot_token = os.getenv('BOT_TOKEN')
+guild_id = os.getenv('GUILD_ID')
 webhook_name = params['webhook_name']
 
 # instantiate objects
