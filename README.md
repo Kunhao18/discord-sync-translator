@@ -10,7 +10,7 @@ Clone the repo and install the dependencies:
 ```
 pip install -r requirements.txt
 ```
-Create file `.env` and fill your bot token and channel id (support only one channel for now):
+Create file `.env` and fill your `bot token` and `channel id` (support only one channel for now):
 ```
 BOT_TOKEN=xxx
 GUILD_ID=xxx
@@ -28,13 +28,13 @@ libretranslate --port 18888
 ```
 
 ## Commands
-> channels in the same group are synchronized
+> channels in the same group will be synchronized
 ```
-/group create [group name] - create a new group
-/group delete [group name] - delete a group and unbind all channels
-/group rename [group name] [new name] - rename the group
-/gropu check - check channel bound information of all the groups
-/channel bind [channel] [group name] - bind channel in a group, a language selection window will pop-up
-/channel unbind [channel] - unbind a channel
-/channel change [channel] [new group] - change the channel's group or language
+/group create [group name]  # create a new group
+/group delete [group name]  # delete a group and unbind all channels
+/group rename [group name] [new name]  # rename the group
+/gropu check  # check channel bound information of all the groups
+/channel bind [channel] [group name]  # bind channel in a group, a language selection window will pop-up
+/channel unbind [channel]  # unbind a channel
+/channel change [channel] [new group]  # change the channel's group or language
 ```
