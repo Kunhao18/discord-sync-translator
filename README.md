@@ -21,7 +21,8 @@ python bot.py
 ```
 ##### (Optional) Set up the LibreTranslate API
 Install the [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) according to the github repo
-start the translator API locally (default port 18888):
+
+Start the translator API locally (default port 18888):
 ```
 libretranslate --port 18888
 ```
