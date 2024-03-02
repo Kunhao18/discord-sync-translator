@@ -58,7 +58,6 @@ class TranslationParser:
             return
 
         self._origin_lang = self._detector.detect(detect_content)
-        print(self._origin_lang)
         if self._origin_lang is None:
             return
 

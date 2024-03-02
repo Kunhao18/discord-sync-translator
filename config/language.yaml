@@ -11,6 +11,11 @@ German:
   translator_note: "de"
   emoji_note: ":flag_de:"
 
+French:
+  detector_note: "FRENCH"
+  translator_note: "fr"
+  emoji_note: ":flag_fr:"
+
 Russian:
   detector_note: "RUSSIAN"
   translator_note: "ru"

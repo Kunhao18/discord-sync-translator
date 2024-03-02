@@ -19,7 +19,7 @@ async def on_ready():
     tree.add_command(group_op_group)
     tree.copy_global_to(guild=discord.Object(id=guild_id))
     await tree.sync(guild=discord.Object(id=guild_id))
-    print('Hidden in the Shadow...')
+    print('Bot started...')
 
 
 @client.event
